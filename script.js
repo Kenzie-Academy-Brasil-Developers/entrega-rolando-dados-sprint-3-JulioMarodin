@@ -37,8 +37,8 @@ dice.addEventListener('click', () => {
     for(let i = 0; i < lista.length; i++) {
         // template string
         lista[i].innerText = `${diceRollArray[i][0]} : ${diceRollArray[i][1]}`;
-        lista[i].style.width = diceRollArray[i][1] + 40 + "px";
-        // lista[i].style.width = "50px"
+        lista[i].style.height = diceRollArray[i][1] + 40 + "px";
+        lista[i].style.width = "50px"
         lista[i].style.border = "1px solid #000";
         lista[i].style.backgroundColor = "blue";
     }

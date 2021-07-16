@@ -1,0 +1,36 @@
+h1 {
+    text-align: center;
+}
+
+#diceRoll {
+    border-radius: 5px;
+    background-color: #4361ee;
+    color: #fff;
+    border: 1px solid transparent;
+    margin-left: 35%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    color: #fff;
+    align-items: flex-end
+}
+
+@media only screen and (min-width: 800px) {
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    #diceRoll {
+        margin-top: 10px;
+        height: 50px;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+    } 
+}
